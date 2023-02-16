@@ -12,3 +12,8 @@ ALTER TABLE `numbe` ADD `no_number` BOOLEAN NOT NULL DEFAULT FALSE AFTER `phone`
 
 
 # INSERT
+
+# MAX CONNECTION
+set global max_connections = 200;
+
+read more https://ubiq.co/database-blog/how-to-increase-max-connections-in-mysql/
